@@ -9,7 +9,7 @@ import { catchError } from 'rxjs';
   providedIn: 'root'
 })
 export class ComplaintService {
-  private apiURL = 'http://localhost:8080/reports';
+  private apiURL = 'http://34.226.54.117:8080/reports';
 
   private httpOptions = {
     headers: {
